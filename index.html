@@ -1,0 +1,88 @@
+<!doctype html>
+<html ng-controller="myCtrl">
+<head>
+  <meta charset="utf-8">
+  <title>ImageToText</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+
+ <script>
+  /* var mainUrl = window.location.href;
+   mainUrl = mainUrl.split('/')
+   if(typeof mainUrl[3] !== 'undefined' && mainUrl[3] === 'ar') {
+    document.getElementById("body").appendChild(
+       `
+       
+       <app-root dir="rtl" ></app-root>`
+
+     )
+    
+
+   }
+   else {
+    document.getElementById("body").appendChild(
+       `
+       
+       <app-root  ></app-root>`
+
+     )
+   }*/
+
+   /*function myCtrl($scope) {
+    $scope.AppendHtml = function() {
+     var myEl = angular.element( document.querySelector( '#body' ) );
+     var mainUrl = window.location.href;
+     mainUrl = mainUrl.split('/')
+     if(typeof mainUrl[3] !== 'undefined' && mainUrl[3] === 'ar') {
+  
+    
+     myEl.append(`
+     <app-root dir="rtl" ></app-root>
+     `); 
+   }
+   else {
+    myEl.append(`
+    <app-root  ></app-root>
+     `); 
+  
+   }
+
+
+         
+    }
+}*/
+   </script>
+  <script async src=//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script>
+  <style>
+     
+    * {
+      direction: ltr!important;
+    }
+    [dir=rtl] {
+     text-align: right;
+    }
+    </style>
+</head>
+<body >
+
+
+
+
+  <app-root dir="rtl" ></app-root>
+
+  <!--<div *ngIf="(window.location.href).split('/')[3] === 'ar' then arLang else enLang">
+  </div>
+  
+  <ng-template #arLang>
+    <app-root dir="rtl" ></app-root>
+  </ng-template>
+
+  <ng-template #enLang>
+    <app-root></app-root>
+  </ng-template>-->
+
+  
+</body>
+</html>
